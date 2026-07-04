@@ -1,0 +1,19 @@
+{
+  "name": "query-method-api",
+  "version": "1.0.0",
+  "description": "Modular monolith API demonstrating the HTTP QUERY method (RFC 10008)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "keywords": ["http", "query", "rfc-10008", "express", "modular-monolith"],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
