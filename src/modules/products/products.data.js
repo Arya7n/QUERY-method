@@ -7,4 +7,4 @@ export const products = [
   { id: '6', name: 'Power Serve', category: 'tennis', price: 95.0, rating: 3.9 },
   { id: '7', name: 'Marathon Elite', category: 'running', price: 199.99, rating: 4.9 },
   { id: '8', name: 'Ridge Walker', category: 'hiking', price: 159.5, rating: 4.4 },
-];
+]; 

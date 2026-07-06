@@ -5,7 +5,7 @@ export function queryProductsHandler(req, res) {
 
   res.set('Cache-Control', 'public, max-age=60');
   res.json(result);
-}
+}  
 
 export function getProductHandler(req, res) {
   const product = getProductById(req.params.id);
